@@ -1,9 +1,13 @@
 ## Behaviour change in .NET 9
 
-To reproduce: run `repro.sh`
+### What changed?
+An overflow in a numeric cast now gets clamped to max value instead of returning zero.
 
-Output on my machine (Git Bash on Windows 10 64-bit):
+### To reproduce
+run `repro.sh`
 
+### Output on my machine
+(Git Bash on Windows 10 64-bit):
 ```
 $ ./repro.sh
 Output with net8:
