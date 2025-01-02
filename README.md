@@ -1,7 +1,7 @@
 ## Behaviour change in .NET 9
 
 ### What changed?
-An overflow in a numeric cast now gets clamped to max value instead of returning zero.
+An overflow in a [numeric cast](Program.cs) now gets clamped to max value instead of returning zero.
 
 ### To reproduce
 run `repro.sh`
