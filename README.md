@@ -4,7 +4,7 @@
 An overflow in a [numeric cast](Program.cs) now gets clamped to max value instead of returning zero.
 
 ### To reproduce
-run `repro.sh`
+run [`repro.sh`](repro.sh)
 
 ### Output on my machine
 (Git Bash on Windows 10 64-bit):
